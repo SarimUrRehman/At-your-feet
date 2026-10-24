@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #1B2430;
+    background-color: #FFFFFF;
+  }
+}
+
+.font-heading {
+  font-family: 'Fraunces', Georgia, serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Subtle carpet texture pattern using SVG data URL */
+.bg-carpet-texture {
+  background-image: radial-gradient(#D97B4A 0.75px, transparent 0.75px), radial-gradient(#1F3A5F 0.75px, #FAF6F1 0.75px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+  background-color: #FAF6F1;
+}
+
+.bg-dark-carpet-texture {
+  background-image: radial-gradient(rgba(217, 123, 74, 0.15) 0.8px, transparent 0.8px);
+  background-size: 24px 24px;
+}
